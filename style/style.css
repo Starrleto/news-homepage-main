@@ -1,0 +1,116 @@
+.navbar-thing{
+    display: flex;
+    padding: 15px;
+    display: flex;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.body-padding{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.segment{
+    padding: 30px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.separate{
+    padding-top: 25px;
+}
+
+.separate-bottom{
+    margin-bottom: 20px;
+}
+
+.separate-side{
+    margin-right: 20px;
+}
+
+.big-text{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.this-thing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.read-more{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: 2px transparent solid;
+    max-width: 50%;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+p{
+    color:hsl(236, 13%, 42%);
+    font-family: inter;
+}
+
+h1{
+    font-family: inter;
+}
+
+.i-guess{
+    font-family: inter;
+    font-weight: 800;
+    font-size: large;
+}
+
+.headers{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 700;
+    color: white;
+}
+
+
+.number{
+    color: hsl(233, 8%, 79%);
+    font-size: 500;
+}
+
+.white{
+    color: hsl(233, 12%, 73%);
+}
+
+.center{
+    display: flex; flex-direction: column; justify-content: center;
+    padding-left: 10px;
+}
+
+h5{
+    font-family: inter;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
